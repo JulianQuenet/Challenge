@@ -1,10 +1,97 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0px;
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+    list-style-type: none;
+}
+
+body{
+    background: linear-gradient(45deg, #232526, #414345);
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between
+}
+
+.nb ul li{
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 35px;
+    font-size: 12px;
+    font-family: monsterrat;
+}
+
+.logo img{
+    width: 95px;
+    height: 85px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logo img:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.nb ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+}
+
+.name{
+    position: absolute;
+    left: 145px;
+    top:60px;
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+header{
+    background: linear-gradient(45deg, #232526, #414345);
+    padding: 25px;
+}
+
+section{
+    padding: 100px;
+    padding-right: 250px;
+}
+
+.homePage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 200px;
+}
+
+.intro{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFBFB;
+}
+
+.About{
+    width: 539px;
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFAFA;  
 }
 
 
-
-
-    
