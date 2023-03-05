@@ -3,3 +3,9 @@ a.onPage,a:hover{
     transition: .3s;
 }
 
+.animatedBackground{
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
