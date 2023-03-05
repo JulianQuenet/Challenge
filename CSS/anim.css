@@ -9,3 +9,97 @@ a.onPage,a:hover{
     overflow: hidden;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
+
+.boxes div{
+    position:absolute;
+    width: 17px;
+    height: 17px;
+    background: transparent;
+    box-shadow: 0 0 0 2px rgb(75, 155, 75), 0 0 10px #00FF00, 0 0 30px #00FF00, 0 0 50px #00FF00;
+}
+
+.boxes div:nth-child(1){
+    top:17%;
+    left:40%;
+    animation: box 10s linear infinite;
+}
+
+.boxes div:nth-child(1){
+    top:17%;
+    left:40%;
+    animation: box 7s linear infinite;
+}
+
+.boxes div:nth-child(2){
+    top:5%;
+    left:73%;
+    animation: box 10s linear infinite;
+}
+
+.boxes div:nth-child(3){
+    top:79%;
+    left:20%;
+    animation: box 8s linear infinite;
+}
+
+.boxes div:nth-child(4){
+    top:27%;
+    left:80%;
+    animation: box 6s linear infinite;
+}
+
+.boxes div:nth-child(5){
+    top:77%;
+    left:10%;
+    animation: box 7s linear infinite;
+}
+
+.boxes div:nth-child(6){
+    top:39%;
+    left:18%;
+    animation: box 4s linear infinite;
+}
+
+.boxes div:nth-child(7){
+    top:48%;
+    left:75%;
+    animation: box 4s linear infinite;
+}
+
+.boxes div:nth-child(8){
+    top:78%;
+    left:65%;
+    animation: box 7s linear infinite;
+}
+
+
+.boxes div:nth-child(9){
+    top:68%;
+    left:57%;
+    animation: box 6s linear infinite;
+}
+
+.boxes div:nth-child(10){
+    top:78%;
+    left:47%;
+    animation: box 9s linear infinite;
+}
+
+.boxes div:nth-child(11){
+    top:58%;
+    left:77%;
+    animation: box 10s linear infinite;
+}
+
+@keyframes box {
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 100%;
+    }
+
+    100%{
+        transform: scale(1.5) translateY(-90px) rotate(360deg);
+        opacity: 0%;
+    }
+    
+}

@@ -1,10 +1,6 @@
-*{
+body{
+    padding:0;
     margin:0;
-    padding:0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: normal;
-    list-style-type: none;
 }
 
 .topBar{
@@ -28,8 +24,9 @@
 }
 
 .logo img:hover{
+    box-shadow: 0 0 50px lightgray;
     transform: scale(1.15);
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 .nb ul li a{
@@ -56,14 +53,14 @@ header{
 }
 
 section{
-    padding: 100px;
+    padding: 75px;
 }
 
 .homePage{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     margin-left: 200px;
 }
 
@@ -85,8 +82,5 @@ section{
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    text-transform: capitalize;
     color: #FFFAFA;  
 }
-
-
