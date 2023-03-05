@@ -1,4 +1,4 @@
-a.onPage,a:hover{
+ a.onPage,.nb a:hover{
     background: #232526;
     transition: .3s;
 }
