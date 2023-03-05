@@ -4,4 +4,57 @@
     background-color: black;
 }
 
+div{
+    position: absolute;
+    font-family: monospace;
+    top: 50%;
+    left: 37%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+p{  
+    color: white;
+    background: transparent;
+    font-size: 42px;
+    font-weight: 400;
+    text-shadow: 0 0 30px rgb(185, 19, 19), 0 0 50px rgb(185, 19, 19), 
+    0 0 100px rgb(185, 19, 19), 0 0 130px rgb(185, 19, 19);
+}
+
+p:hover{
+    transform: scale(1.05);
+    text-shadow: 0 0 50px rgb(185, 19, 19), 0 0 70px rgb(185, 19, 19), 
+    0 0 120px rgb(185, 19, 19), 0 0 150px rgb(185, 19, 19);
+    transition: ease-in 0.5s;
+    animation: neon 2s ease-in-out 1;
+}
+
+@keyframes neon {
+    0%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(-25px);
+    }
+
+    50%{
+        transform: translateX(25px);
+    }
+
+    75%{
+        transform: translate(-25px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+
+
     
