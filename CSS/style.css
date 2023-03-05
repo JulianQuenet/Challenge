@@ -139,3 +139,49 @@ img.D:hover{
     }
     
 }
+
+.education{
+    font-family: poppins;
+    color:white;
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+.education a{
+    color: gray;
+}
+
+.education h4{
+    color: darkgrey;
+}
+
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: poppins;
+    color:white;
+    padding: 50px;
+    margin-left: 10px;
+}
+
+.experience h4{
+    color: darkgray;
+}
+
+.lists{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    font-family: poppins;
+    padding-right: 125px;
+    padding-left: 125px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.lists h2{
+    color: darkgray;
+}
